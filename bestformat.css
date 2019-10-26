@@ -1,1 +1,11 @@
+/* General Rules */
+.container-fluid {
+	text-align: center;
+}
+
+#format_overview ul {
+	text-align: left;
+}
+
 /* navbar */
+
