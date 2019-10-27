@@ -8,4 +8,21 @@
 }
 
 /* navbar */
+#navigation .nav-link {
+	padding: 1rem 4.5rem;
+}
+
+#navigation {
+	background-color: #3500d3;
+}
+
+#navigation a {
+	text-decoration: none;
+	color: #282828;
+}
+
+#navigation a:hover {
+	color: white;
+	background-color: #282828;
+}
 
