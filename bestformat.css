@@ -9,7 +9,7 @@
 
 /* navbar */
 #navigation .nav-link {
-	padding: 1rem 4.5rem;
+	padding: 1.5rem 4.5rem;
 }
 
 #navigation {
@@ -26,3 +26,17 @@
 	background-color: #282828;
 }
 
+/* jumbotron */
+
+#jumbotron {
+	height: 40rem;
+	background-color: #282828;
+}
+
+#jumbotron h1 {
+	padding-top: 17rem;
+}
+
+#jumbotron h1, h3 {
+	color: white;
+}
