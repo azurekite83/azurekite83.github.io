@@ -44,5 +44,13 @@
 #format_overview {
 	background-color: #240090;
 	color: white;
-	height: 45rem;
+	height: 55rem;
+}
+
+#format_overview .col-6 {
+	margin-top: 7rem;
+}
+
+#format_overview .col-10 {
+	margin-top: 7rem;
 }
