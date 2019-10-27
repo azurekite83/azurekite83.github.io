@@ -54,3 +54,18 @@
 #format_overview .col-10 {
 	margin-top: 7rem;
 }
+
+/* format_history */
+#format_history {
+	background-color: #240090;
+	color: rgba(255, 255, 255, 0.8);
+	height: 45rem;
+}
+
+#format_history .row {
+	margin-top: 10rem;
+}
+
+#format-history h3 {
+	padding-top: 5rem;
+}
