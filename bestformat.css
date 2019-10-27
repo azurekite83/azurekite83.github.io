@@ -22,7 +22,7 @@
 }
 
 #navigation a:hover {
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 	background-color: #282828;
 }
 
@@ -31,7 +31,7 @@
 #jumbotron {
 	height: 40rem;
 	background-color: #282828;
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 }
 
 #jumbotron .d-flex {
@@ -42,8 +42,8 @@
 
 /* format_overview */
 #format_overview {
-	background-color: #240090;
-	color: white;
+	background-color: #0c0032;
+	color: rgba(255, 255, 255, 0.8);
 	height: 55rem;
 }
 
