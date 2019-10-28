@@ -23,7 +23,7 @@
 
 #navigation a:hover {
 	color: rgba(255, 255, 255, 0.8);
-	background-color: #282828;
+	background-color: #190061;
 }
 
 /* jumbotron */
@@ -102,4 +102,16 @@
 
 #similar_formats p {
 	padding-top: .5rem;
+}
+
+/* footer */
+#footer {
+	height: 4rem;
+	background-color: #3500d3;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#footer .col-10 {
+	padding-top: 1.4rem;
+	text-align: left;
 }
