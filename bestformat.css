@@ -69,3 +69,18 @@
 #format_history h3 {
 	padding-top: 5rem;
 }
+
+/* compression */
+#compression {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: #190061;
+	height: 60rem;
+}
+
+#compression h3 {
+	padding-top: 5rem;
+}
+
+#compression .row {
+	margin-top: 4rem;
+}
