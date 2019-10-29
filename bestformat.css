@@ -92,16 +92,35 @@
 #format_history {
 	background-color: #240090;
 	color: rgba(255, 255, 255, 0.8);
-	height: 45rem;
+	height: 65rem;
 	font-family: 'Montserrat', sans-serif;
-}
-
-#format_history .row {
-	margin-top: 10rem;
+	padding: 0;
 }
 
 #format_history h3 {
-	padding-top: 5rem;
+	padding: 2.5rem 0 2.5rem 0;
+}
+
+#format_history > h3 {
+	padding: 3rem 0 3rem 0;
+	background-color: rgba(16, 16, 16, 0.2);
+	letter-spacing: .3rem;
+}
+
+#format_history p {
+	font-size: 1.2rem;
+}
+
+#format_history .row {
+	margin-top: 15rem;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#format_history .col-3 {
+	margin: 0 4rem 0 4rem;
+	border-right: .1rem solid rgba(255, 255, 255, 0.5);
+	border-left: .1rem solid rgba(255, 255, 255, 0.5);
 }
 
 /* compression */
