@@ -40,6 +40,10 @@
 	align-items: center;
 }
 
+#jumbotron h1 {
+	font-size: 5rem;
+}
+
 /* format_overview */
 #format_overview {
 	background-color: #0c0032;
@@ -48,8 +52,23 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+#format_overview h3 {
+	padding-bottom: .7rem;
+	font-size: 2rem;
+	letter-spacing: .3rem;
+}
+
 #format_overview ul {
 	text-align: left;
+	border-top: .1rem solid rgba(255, 255, 255, 0.8);
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	font-size: 1.3rem;
+	background-color: rgba(16, 16, 16, 0.5);
+}
+
+#format_overview ul li {
+	margin-bottom: 1rem;
 }
 
 #format_overview .col-6 {
@@ -58,6 +77,15 @@
 
 #format_overview .col-10 {
 	margin-top: 7rem;
+}
+
+#format_overview .col-10 h3 {
+	border-bottom: .1rem solid rgba(255, 255, 255, 0.8);
+}
+
+#format_overview .col-10 p {
+	margin-top: 1.2rem;
+	font-size: 1.3rem;
 }
 
 /* format_history */
