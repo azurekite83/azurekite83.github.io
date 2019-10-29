@@ -29,7 +29,7 @@
 /* jumbotron */
 
 #jumbotron {
-	height: 40rem;
+	height: 60rem;
 	background-color: #282828;
 	color: rgba(255, 255, 255, 0.8);
 	font-family: 'Montserrat', sans-serif;
@@ -102,17 +102,17 @@
 }
 
 #format_history > h3 {
-	padding: 3rem 0 3rem 0;
+	padding: 2.5rem 0 2.5rem 0;
 	background-color: rgba(16, 16, 16, 0.2);
 	letter-spacing: .3rem;
 }
 
 #format_history p {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 #format_history .row {
-	margin-top: 15rem;
+	margin-top: 12rem;
 	margin-right: 0;
 	margin-left: 0;
 }
@@ -127,18 +127,44 @@
 #compression {
 	color: rgba(255, 255, 255, 0.8);
 	background-color: #190061;
-	height: 60rem;
+	height: 75rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
 #compression h3 {
-	padding-top: 5rem;
+	font-size: 2.4rem;
+	letter-spacing: .3rem;
+	width: 100%;
+	padding: 1rem 0 1rem 0;
+	border: .2rem solid rgba(16, 16, 16, 0.5);
+}
+
+#compression h4 {
+	padding-top: .8rem;
+	padding-bottom: .3rem;
+	border-bottom: .1rem solid rgba(16, 16, 16, 0.8);
+	display: inline-block;
+}
+
+#compression p {
+	font-size: 1.15rem;
+	margin-top: .5rem;
 }
 
 #compression .row {
 	margin-top: 4rem;
 }
 
+#compression > .row {
+	margin: 0;
+	padding-top: 1.5rem;
+}
+
+#compression .col-5 {
+	padding: 1.5rem 0 1.5rem 0;
+	border-top: .2rem solid rgba(255, 255, 255, 0.5);
+	border-bottom: .2rem solid rgba(255, 255, 255, 0.5);
+}
 /* similar_formats */
 #similar_formats {
 	color: rgba(255, 255, 255, 0.8);
