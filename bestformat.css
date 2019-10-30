@@ -86,6 +86,7 @@
 #format_overview .col-10 p {
 	margin-top: 1.2rem;
 	font-size: 1.3rem;
+	line-height: 2.5rem;
 }
 
 /* format_history */
@@ -102,13 +103,14 @@
 }
 
 #format_history > h3 {
-	padding: 2.5rem 0 2.5rem 0;
+	padding: 2rem 0 2rem 0;
 	background-color: rgba(16, 16, 16, 0.2);
 	letter-spacing: .3rem;
 }
 
 #format_history p {
 	font-size: 1.3rem;
+	line-height: 2.5rem;
 }
 
 #format_history .row {
@@ -129,13 +131,12 @@
 #compression {
 	color: rgba(255, 255, 255, 0.8);
 	background-color: #190061;
-	height: 78rem;
+	height: 90rem;
 	font-family: 'Montserrat', sans-serif;
 	padding: 0;
 }
 
 #compression h3 {
-	font-size: 2.4rem;
 	letter-spacing: .3rem;
 	width: 100%;
 	padding: 2rem 0 2rem 0;
@@ -151,6 +152,7 @@
 #compression p {
 	font-size: 1.15rem;
 	margin-top: .5rem;
+	line-height: 2.5rem;
 }
 
 #compression .row {
@@ -171,7 +173,7 @@
 #similar_formats {
 	color: rgba(255, 255, 255, 0.8);
 	background-color: #282828;
-	height: 35rem;
+	height: 45rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -182,25 +184,36 @@
 
 #similar_formats h3 {
 	margin-bottom: 2rem;
+	padding-bottom: .5rem;
+	font-size: 2rem;
+	letter-spacing: .1rem;
+	border-bottom: .2rem solid #3500d3;
 }
 
 #similar_formats p {
 	padding-top: .5rem;
+	font-size: 1.4rem;
+	line-height: 3rem;
 }
 
 /* footer */
 #footer {
-	height: 4rem;
+	height: 4.5rem;
 	background-color: #3500d3;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(16, 16, 16, 0.8); 
 	font-family: 'Lato', sans-serif;
 }
 
 #footer .col-10 {
-	padding-top: 1.4rem;
 	text-align: left;
+	padding: 0 0 0 2rem;
 }
 
-#footer .col {
-	padding-top: 1.4rem;
+#footer .row {
+	align-items: center;
+	height: 100%;
+}
+
+#footer p {
+	margin: 0;
 }
