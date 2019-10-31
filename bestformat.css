@@ -107,6 +107,7 @@
 	padding: 2rem 0 2rem 0;
 	background-color: rgba(16, 16, 16, 0.2);
 	letter-spacing: .3rem;
+	border-bottom: none;
 }
 
 #format_history p {
