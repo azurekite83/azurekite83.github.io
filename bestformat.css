@@ -220,3 +220,36 @@
 #footer p {
 	margin: 0;
 }
+
+@media screen and (max-width: 2560px) {
+	#navigation .nav-link {
+		padding: 2rem 4.5rem;
+		font-size: 1.7rem;
+	}
+
+	#jumbotron {
+		height: 65rem;
+	}
+
+	#jumbotron h1 {
+		font-size: 6rem;
+	}
+
+	#format_overview {
+		height: 110rem;
+	}
+
+	#format_overview h3 {
+		font-size: 3rem;
+	}
+
+	#format_overview .col-10 p
+	{
+		font-size: 1.5rem;
+	}
+
+	#format_overview ul {
+		font-size: 1.5rem;
+		line-height: 
+	}
+}
